@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	Tee
-Summary:	IO-Tee perl module
-Summary(pl):	Modu³ perla IO-Tee
+Summary:	IO::Tee perl module
+Summary(pl):	Modu³ perla IO::Tee
 Name:		perl-IO-Tee
 Version:	0.64
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IO-Tee - Multiplex output to multiple output handles.
+IO::Tee - Multiplex output to multiple output handles.
 
 %description -l pl
-Modu³ perla IO-Tee.
+Modu³ perla IO::Tee.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
