@@ -26,7 +26,7 @@ Modu³ perla IO::Tee - powielaj±cy wyj¶cie na wiele uchwytów plików.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
