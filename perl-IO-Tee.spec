@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	Tee
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO-Tee perl module
 Summary(pl):	Modu³ perla IO-Tee
 Name:		perl-IO-Tee
 Version:	0.64
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ IO-Tee - Multiplex output to multiple output handles.
 Modu³ perla IO-Tee.
 
 %prep
-%setup -q -n IO-Tee-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
