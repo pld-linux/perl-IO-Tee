@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla IO-Tee
 Name:		perl-IO-Tee
 Version:	0.63
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/IO-Tee-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/IO/IO-Tee-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IO-Tee - Multiplex output to multiple output handles. 
+IO-Tee - Multiplex output to multiple output handles.
 
 %description -l pl
 Modu³ perla IO-Tee.
