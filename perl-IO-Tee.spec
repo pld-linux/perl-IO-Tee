@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla IO::Tee
 Name:		perl-IO-Tee
 Version:	0.64
 Release:	7
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	97d91e38fcadc1f01d8030a8d4f30701
