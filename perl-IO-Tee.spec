@@ -9,7 +9,7 @@ Summary:	IO::Tee perl module
 Summary(pl):	Modu³ perla IO::Tee
 Name:		perl-IO-Tee
 Version:	0.64
-Release:	7
+Release:	8
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
