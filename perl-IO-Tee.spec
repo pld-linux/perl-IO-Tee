@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IO
-%define	pnam	Tee
+%define		pdir	IO
+%define		pnam	Tee
 Summary:	IO::Tee perl module
 Summary(pl):	Modu³ perla IO::Tee
 Name:		perl-IO-Tee
