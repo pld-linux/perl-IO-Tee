@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	Tee
 Summary:	IO::Tee perl module
-Summary(pl):	Modu≥ perla IO::Tee
+Summary(pl.UTF-8):   Modu≈Ç perla IO::Tee
 Name:		perl-IO-Tee
 Version:	0.64
 Release:	8
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 IO::Tee - Multiplex output to multiple output handles.
 
-%description -l pl
-Modu≥ perla IO::Tee - powielaj±cy wyj∂cie na wiele uchwytÛw plikÛw.
+%description -l pl.UTF-8
+Modu≈Ç perla IO::Tee - powielajƒÖcy wyj≈õcie na wiele uchwyt√≥w plik√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
