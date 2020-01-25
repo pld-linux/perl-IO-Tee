@@ -4,7 +4,6 @@
 
 %define		pdir	IO
 %define		pnam	Tee
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Tee perl module
 Summary(pl.UTF-8):	Moduł perla IO::Tee
 Name:		perl-IO-Tee
