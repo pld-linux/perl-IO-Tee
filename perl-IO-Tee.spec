@@ -7,14 +7,14 @@
 Summary:	IO::Tee perl module
 Summary(pl.UTF-8):	Moduł perla IO::Tee
 Name:		perl-IO-Tee
-Version:	0.64
-Release:	10
+Version:	0.66
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	97d91e38fcadc1f01d8030a8d4f30701
-URL:		http://search.cpan.org/dist/IO-Tee/
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	3c87b1f16cf90f85388cdac597b6ec7b
+URL:		https://metacpan.org/dist/IO-Tee
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
